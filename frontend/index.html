@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Image Filter Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: right; margin-bottom: 20px;">
+            <a href="/logout" class="btn" style="background: linear-gradient(45deg, #dc3545, #c82333);">🚪 Logout</a>
+        </div>
+        <h1>🎨 AI Image Filter Dashboard</h1>
+        <p class="subtitle">Choose your filter and transform photos instantly!</p>
+        
+        <form action="/convert" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required>
+            
+            <select name="filter" required>
+                <option value="">🎯 Select AI Filter</option>
+                <option value="sketch">✏️ Pencil Sketch Effect</option>
+                <option value="cartoon">🎭 Cartoon Style</option>
+                <option value="oilpaint">🖌️ Oil Painting Effect</option>
+            </select>
+            
+            <button type="submit">✨ Apply AI Filter</button>
+        </form>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
