@@ -1,0 +1,19 @@
+.first{
+    margin:0px;
+    border:5px solid blue;
+    padding:70px;
+    width: 30px;
+}
+.second{
+   margin-left: 180px;
+    border:5px solid rgb(182, 104, 215);
+    padding: 70px;
+    width: 30px;
+}
+.third{
+    margin: 0px;
+    border:5px solid rgb(197, 98, 159);
+    padding: 70px;
+    width: 30px;
+
+}

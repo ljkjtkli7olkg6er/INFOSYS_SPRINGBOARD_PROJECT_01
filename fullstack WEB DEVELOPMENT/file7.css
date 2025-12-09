@@ -1,0 +1,17 @@
+.container{
+    width:100%;
+    gap: 0px;
+    display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.a{width :100px;
+    height: 100px;
+    background: #000;
+}
+.b{width :100px;
+    height: 100px;
+    background: #f9f5f5;
+}
+
